@@ -134,11 +134,9 @@ h1 {
 
 .pic {
 border: 14px solid rgb(182, 182, 187);
-position: center;
 font-size: 10px;
 width: 400px;
 height: auto;
-justify-content: space-around;
 }
 
 .previous{
