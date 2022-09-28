@@ -136,8 +136,8 @@ h1 {
 border: 18px solid rgb(182, 182, 187);
 text-align: center;
 font-size: 10px;
-justify-content: start;
-width: 400px;
+justify-content: end;
+width: auto;
 height: auto;
 
 }
