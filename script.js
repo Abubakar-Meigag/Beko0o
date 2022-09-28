@@ -141,3 +141,28 @@ document.getElementById('btn3').addEventListener('click', (event) => {
   event.target.innerText = balance.reduce((a,b) => a+b, 0);
 
 });
+
+
+var img;
+
+
+img = ['https://creativityboostonline.files.wordpress.com/2019/05/new-ideas.jpg', 'https://www.freshbooks.com/wp-content/uploads/unique-business-ideas-from-around-world.jpg', 'https://images.prismic.io/antlerco/dce6cc34-1496-418b-bb87-6b455c2fed62_Program-London-Founders.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=40&rect=230%2C0%2C3776%2C2832&w=1000&h=750'];
+
+let element_pic = document.getElementById('pic');
+img.push(img[0]);
+element_pic.setAttribute("src", img[0]);
+
+
+document.getElementById('previous').addEventListener('click', (event) => {
+  let element_pic2 = document.getElementById('pic');
+  img.unshift(img.pop());
+  element_pic2.setAttribute("src", img[0]);
+
+});
+
+document.getElementById('next').addEventListener('click', (event) => {
+  let element_pic3 = document.getElementById('pic');
+  img.push(img[0]);
+  element_pic3.setAttribute("src", img.shift());
+
+});
