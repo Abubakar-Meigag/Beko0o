@@ -131,3 +131,9 @@ h1 {
   color: #b7b9ba;
   justify-content: end;
 }
+
+.pic {
+border: 1.5px solid rgb(182, 182, 187);
+text-align: center;
+font-size: 10px;
+}
