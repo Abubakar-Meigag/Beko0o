@@ -137,15 +137,16 @@ border: 14px solid rgb(182, 182, 187);
 width: 400px;
 margin-left: auto;
 margin-right: auto;
-padding: 20px;
 display: flex;
 justify-content: space-around
 }
 
 .previous{
-  padding: 20px;
+  padding: 100px;
+  justify-content: center;
 }
 
 .next{
-  padding: 20px;
+  padding: 100px;
+  justify-content: center;
 }
