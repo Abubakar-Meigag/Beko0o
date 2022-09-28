@@ -138,6 +138,7 @@ position: center;
 font-size: 10px;
 width: 400px;
 height: auto;
+justify-content: space-around;
 }
 
 .previous{
