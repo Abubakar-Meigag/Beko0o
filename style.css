@@ -154,3 +154,16 @@ h1 {
  margin-left: auto;
  margin-right: auto;
 }
+
+#comment-box, #post {
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+    width: 300px;
+}
+#post {
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    width: 50px;
+}
