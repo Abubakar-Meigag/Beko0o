@@ -162,11 +162,12 @@ h1 {
     width: 300px;
     text-align: center;
     font-size: 14px;
-    color: #4cc8ee;
+    
 }
 #post {
     border: none;
     border-radius: 5px;
     height: 20px;
     width: 50px;
+    padding: 20px
 }
