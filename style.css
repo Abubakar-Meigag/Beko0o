@@ -160,6 +160,9 @@ h1 {
     border-radius: 5px;
     height: 100px;
     width: 300px;
+    text-align: center;
+    font-size: 14px;
+    color: #4cc8ee;
 }
 #post {
     border: none;
